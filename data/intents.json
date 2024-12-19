@@ -1,0 +1,23 @@
+{
+    "add patient": [
+        "add a new patient", "register patient", "new patient", "add a patient", "i have a patient",
+        "register a new patient", "enroll a patient", "create patient record", "new patient registration",
+        "add patient details", "input patient data", "start patient file", "set up patient",
+        "ad new pacient", "registar patient", "new patint", "add pacient", "i hve a patint"
+    ],
+    "assign medication": [
+        "assign medication", "prescribe medication", "give medication", "add a new medicine", 
+        "assign a new medicine", "add a medicine to", "dispense medication", "prescribe treatment",
+        "add prescription", "issue medication", "give prescription", "provide medication",
+        "start medication", "initiate treatment", "recommend medication",
+        "asign medication", "prescrib medication", "giv medication", "add a new medcine", 
+        "assign a new medecine", "add a medcine to", "add a medicine"
+    ],
+    "schedule follow up": [
+        "schedule follow-up", "book appointment", "follow-up", "next appointment", "next visit",
+        "set up follow-up", "schedule next appointment", "book follow-up appointment",
+        "arrange follow-up", "plan next visit", "set follow-up", "organize next check-up",
+        "schedule revisit", "follow-up scheduling", "reserve follow-up slot",
+        "shedule follow-up", "book appointmant", "folow-up", "next appointmant", "nxt visit"
+    ]
+}

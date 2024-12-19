@@ -1,0 +1,73 @@
+{
+    "string": {
+        "input": "add a patient Mohamed Salah with 23 years old Diabetes male",
+        "response": {
+            "Request number 1": {
+                "status": "success",
+                "intent": "add patient",
+                "entities": {
+                    "name": "Mohamed Salah",
+                    "condition": "Diabetes",
+                    "age": "23 years old",
+                    "gender": "male"
+                }
+            }
+        }
+    },
+    "2": {
+        "input": "shedule a follow up meeting for Leonardo Dicaprio on Monday 24 of january 8 pm and add a medicine for Mohamed Salah as Aspirin 50mg twice a day and add a another patient Jhonny Depp 23 years old male he has Diabetes ",
+        "response": {
+            "Request number 1": {
+                "status": "success",
+                "intent": "schedule follow up",
+                "entities": {
+                    "name": "Leonardo Dicaprio",
+                    "date": "24 of january 8 pm"
+                }
+            },
+            "Request number 2": {
+                "status": "success",
+                "intent": "assign medication",
+                "entities": {
+                    "name": "Mohamed Salah",
+                    "medication": "Aspirin",
+                    "dosage": "50 mg",
+                    "frequency": "twice a day"
+                }
+            },
+            "Request number 3": {
+                "status": "success",
+                "intent": "add patient",
+                "entities": {
+                    "name": "Jhonny Depp",
+                    "condition": "Diabetes",
+                    "age": "23 years old",
+                    "gender": "male"
+                }
+            }
+        }
+    },
+    "3": {
+        "input": "Assign medication Paracetamol 500mg twice a day for Leonel Messi and schedule a follow up for his brother Leonardo Dicaprio on monday 24th of january 9 pm",
+        "response": {
+            "Request number 1": {
+                "status": "success",
+                "intent": "assign medication",
+                "entities": {
+                    "name": "Leonel Messi",
+                    "medication": "Paracetamol",
+                    "dosage": "500 mg",
+                    "frequency": "twice a day"
+                }
+            },
+            "Request number 2": {
+                "status": "success",
+                "intent": "schedule follow up",
+                "entities": {
+                    "name": "Leonardo Dicaprio",
+                    "date": "24th of january 9 pm"
+                }
+            }
+        }
+    }
+}
